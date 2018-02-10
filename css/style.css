@@ -2,24 +2,25 @@
 
 body {
 	min-width: 1160px;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  color: #333333;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #333333;
 }
 
 .container {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0 10px;
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
 .main-header {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: rgb(15, 29, 48);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgb(15, 29, 48);
+	border-bottom: solid 10px #2099d0;
 }
 
 .header-top {
@@ -30,99 +31,125 @@ body {
 }
 
 .logo {
-  font-family: Bangers;
-	font-size: 56px;
+	font-family: Bangers;
+	font-size: 50px;
 }
 
 .header-title {
 	margin: 0;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 24px;
+	line-height: 30px;
 }
 
 .main-menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
 	height: 50px;
+	display: flex;
+	justify-content: flex-end;
 	align-items: center;
+	list-style: none;
 }
 
 .main-menu li {
-  font-size: 18px;
-  line-height: 24px;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 .main-menu a {
 	padding: 10px 15px;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 5px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 5px;
 }
 
 .main-menu a:hover {
-  background-color: rgb(14, 126, 227);
+	background-color: rgb(14, 126, 227);
 }
 
 .main-menu a:active {
-  background-color: rgb(13, 113, 204);
-}
-
-.lessons {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	background-color: rgb(13, 113, 204);
 }
 
 .lesson-header {
-	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #ffffff;
+	border-bottom: solid 10px #2099d0;
 }
 
 .lesson-title {
 	margin: 0;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	min-height: 65px;
 }
 
 .lesson-description {
-	padding-left: 390px;
-	
-	min-height: 300px;
+	padding-left: 385px;
+	min-height: 295px;
 }
 
-.lexis {
-	padding-top: 10px;
+.lexis-content,
+.dictionary {
+	padding-top: 30px;
 	padding-bottom: 30px;
+	background-color: #ededed;
+	border-bottom: solid 10px #2099d0;
 }
 
 .lesson-part-title {
-	margin-bottom: 50px;
-}
-
-.lexis-container::after {
-	 clear: both;
-  content: "";
-  display: table;
-}
-
-.lexis-container {
-	margin-bottom: 1800px;
-}
-
-.lexis-title {
 	margin-bottom: 30px;
 }
 
-.lexis-item {
-	float: left;
-	width: 370px;
-	margin-right: 5px;
-	
-	min-height: 260px;
+.lexis-content-title {
+	margin-bottom: 30px;
 }
 
-.lexis-item:last-child {
-	margin-right: 0;
+.lexis-group {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.lexis-item {
+	width: 350px;
+	padding: 15px 10px;
+}
+
+.lexis-item-title {
+	padding-top: 170px;
+	margin-bottom: 5px;
+}
+
+.dictionary {
+	background-color: #ffffff;
+}
+
+.dictionary-items-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.dictionary-item {
+	width: 320px;
+	margin-bottom: 20px;
+	padding: 15px 10px;
+}
+
+.main-footer {
+	padding-top: 45px;
+	padding-bottom: 35px;
+	color: #ffffff;
+	background-color: #0f1d30;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-contacts {
+	display: flex;
 }
 
