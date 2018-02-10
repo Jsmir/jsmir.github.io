@@ -184,12 +184,12 @@
 			<div class="container">
 				<div class="footer-container">
 					<div class="copyright">Estudias © 2018</div>
-					<div class="contacts-title">Следите за обновлениями</div>
+					<div class="contacts-title">Следите за обновлениями:</div>
 					<!-- VK Widget -->
 					<div>
 						<div id="vk_groups"></div>
 						<script type="text/javascript">
-						VK.Widgets.Group("vk_groups", {mode: 4, no_cover: 1, height: "400", color1: 'EDEDED'}, 141956869);
+							VK.Widgets.Group("vk_groups", {mode: 4, no_cover: 1, height: "400", color1: 'EDEDED'}, 141956869);
 						</script>
 					</div>
 				</div>
@@ -209,14 +209,12 @@
 						});
 					} catch(e) { }
 				});
-
 				var n = d.getElementsByTagName("script")[0],
 					s = d.createElement("script"),
 					f = function () { n.parentNode.insertBefore(s, n); };
 				s.type = "text/javascript";
 				s.async = true;
 				s.src = "https://mc.yandex.ru/metrika/watch.js";
-
 				if (w.opera == "[object Opera]") {
 					d.addEventListener("DOMContentLoaded", f, false);
 				} else { f(); }
