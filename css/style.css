@@ -147,9 +147,28 @@ body {
 .footer-container {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
-.contacts-title {
-	padding-left: 200px;
+.footer-social {
+  float: right;
+  width: 70px;
+  text-align: right;
+  font-size: 0;
+}
+
+.social-btn {
+  display: inline-block;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+
+.social-btn-vk {
+  width: 36px;
+  height: 24px;
+  background-image: url("../img/ico-vk.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-vk:hover {
+  background-image: url("../img/ico-vk-active.png");
 }
