@@ -2,10 +2,8 @@
 
 font-family: 'Kaushan';
 
-src: url('../KaushanScript-Regular.otf');
+src: url('../KaushanScript-Regular.otf') format('opentype');
 	
-	url('../fonts/KaushanScript-Regular.otf#webfont') format('otf')
-
 }
 
 
