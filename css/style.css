@@ -127,6 +127,7 @@ body {
 	padding-bottom: 30px;
 	background-color: #ededed;
 	border-bottom: solid 10px #2099d0;
+	text-align: center;
 }
 
 .lesson-part-title {
@@ -149,7 +150,7 @@ body {
 }
 
 .lexis-item-title {
-	
+	padding-top: 10px;
 	margin-bottom: 5px;
 }
 
